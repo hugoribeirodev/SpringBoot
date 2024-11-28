@@ -9,6 +9,8 @@ public class Aluno {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Column (name = "pk_id_aluno")
     private Long id;
 
     @Column(name = "nome_aluno")

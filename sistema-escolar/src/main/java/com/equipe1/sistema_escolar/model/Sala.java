@@ -8,6 +8,8 @@ public class Sala {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+        @Column (name = "pk_id_sala")
         private Long id;
 
         @Column (name = "name_sala")

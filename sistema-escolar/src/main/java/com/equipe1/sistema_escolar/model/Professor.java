@@ -8,6 +8,8 @@ public class Professor {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
+
+    @Column (name = "pk_id_professor")
     private Long id;
 
     @Column(name = "nome_professor")

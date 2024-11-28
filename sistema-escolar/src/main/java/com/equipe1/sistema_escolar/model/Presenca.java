@@ -10,6 +10,8 @@ public class Presenca {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+        @Column (name = "pk_id_presenca")
         private Long id;
 
         @Column (name = "data_presenca")
